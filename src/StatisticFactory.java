@@ -17,7 +17,7 @@ import java.util.logging.Logger;
 public class StatisticFactory {
     private static final Logger LOG = Logger.getLogger(StatisticFactory.class.getName());
     private static final String STATISTIC_DIRECTORY_PATH = "stat";
-    private static final int MAX_COUNT = 10;
+    private static final int MAX_COUNT = 100;
 
     /**
      * @return true if and only if directory was created
